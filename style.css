@@ -1,19 +1,19 @@
-//Setting body css
+/*Setting body css*/
 body {background-color:black; font-family:arial; color:white}
-//Setting css for h1 tag
+/*Setting css for h1 tag*/*/*/
 h1{color:grey;font-family:verdana}
-//Setting css for div
+/*Setting css for div*/
 .maindiv {
     background-color:white;
     color:black;
     width:600px;
-    //20px space around an elements content
+    /*20px space around an elements content*/
     padding:20px;
-    //25px radius of the element's corners.
+    /*25px radius of the element's corners.*/
     border-radius:25px;
-    //Align the contents of div 
+    /*Align the contents of div 
     text-align: left; display:flex; flex-direction: column; 
-    //Move to center
+    /*Move to center*/
     margin:auto;
 }
 
