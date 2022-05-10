@@ -14,7 +14,7 @@ function compute()
     //Finding the year when you get the total amount
     var year = new Date().getFullYear()+parseInt(years);
     //Changing the result span to show the required answer
-    document.getElementById("result").innerHTML="If you deposit "+principal+",\<br\>at an interest rate of "+rate+"%\<br\>You will receive an amount of "+interest+",\<br\>in the year "+year+"\<br\>"
+    document.getElementById("result").innerHTML="If you deposit "+<font color:"yellow">principal</font>+",\<br\>at an interest rate of "+<font color:"yellow">rate</font>+"%\<br\>You will receive an amount of "+interest+",\<br\>in the year "+year</font>+"\<br\>"
     
 }
 function updateRate(){
